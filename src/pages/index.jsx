@@ -1,4 +1,5 @@
-import * as React from 'react';
+import * as React from "react";
+import Display from "../components/Display.tsx";
 
 // styles
 const pageStyles = {
@@ -138,6 +139,7 @@ function IndexPage() {
           🎉🎉🎉
         </span>
       </h1>
+      <Display />
       <p style={paragraphStyles}>
         Edit
         {' '}
