@@ -13,7 +13,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "eslint . --ext js --ext jsx"
+    "lint": "eslint . --ext js --ext jsx",
+    "lint-fix": "eslint . --fix --ext js --ext jsx"
+   
   },
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.6",
